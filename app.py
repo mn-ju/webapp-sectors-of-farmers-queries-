@@ -1,5 +1,4 @@
 %%writefile app.py
-
 import streamlit as st
 import joblib
 model = joblib.load("Sectors of farmers queries")
