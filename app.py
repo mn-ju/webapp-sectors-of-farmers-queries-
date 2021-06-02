@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-model = joblib.load("Sectors of farmers queries")
+model = joblib.load("Sector of farmers queries")
 html_temp="""
 <div style="background-color:white;padding:10px">
 <h1 style="color:green;text-aling:center;">WELCOME TO KISAN CALL CENTER </h1>
