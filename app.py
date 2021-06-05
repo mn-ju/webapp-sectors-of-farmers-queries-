@@ -15,10 +15,16 @@ state = st.text_input("Please enter your state","Type Here")
 ip = st.text_input("Please enter your query:","Type Here")
 op = model.predict([ip])
 if st.button('NEXT'):
-  st.title(f"Mr/Ms {name} of {state} state, Your query is registered in {op[0]} sector {\n}")
+  html_temp="""
+    <div style="background-color:white;padding:10px">
+    <h1 style="color:blue;text-aling:center;">Mr/Ms {name} of {state} state, Your query is registered in {op[0]} sector </h1>
+    </div>
+    """
+  st.markdown(html_temp,unsafe_allow_html=True)
+  st.title(f"Mr/Ms {name} of {state} state, Your query is registered in {op[0]} sector")
   
  
-  st.subheader(f"please contact to  toll free number:1800-180-1551 and for BSNL landline: 1551 {\n} ")
+  st.subheader(f"please contact to  toll free number:1800-180-1551 and for BSNL landline: 1551 ")
  
   
   
