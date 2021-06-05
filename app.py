@@ -23,14 +23,14 @@ if st.button('NEXT'):
   
   
 html_temp1="""
-    <div style="background-color:white;padding:2px">
-    <h1 style="color:red;text-aling:center;">Mr/Ms {name} of {state} state, This is the Machine Learning webapp of accuracy level 90% </h1>
+    <div style="background-color:white;padding:20px">
+    <h1 style="color:red;text-aling:center;">This is the Machine Learning webapp of accuracy level 90% </h1>
     </div>
     """
 st.markdown(html_temp1,unsafe_allow_html=True)  
 html_temp2="""
-    <div style="background-color:white;padding:2px">
-    <h1 style="color:red;text-aling:center;">Mr/Ms {name} of {state} state, THANKYOU</h1>
+    <div style="background-color:white;padding:20px">
+    <h1 style="color:red;text-aling:center;">THANKYOU</h1>
     </div>
     """
 st.markdown(html_temp2,unsafe_allow_html=True)  
