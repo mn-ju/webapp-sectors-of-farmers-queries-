@@ -22,9 +22,9 @@ if st.button('NEXT'):
   st.subheader(f"please contact to  toll free number:1800-180-1551 and for BSNL landline Toll-Free number: 1551 \n \n")
  
   
-  
-st.write(f"\n This is the Machine Learning webapp of accuracy level 90% ")
-st.write("\n                      THANKYOU")
+st.text(" ")  
+st.write("This is the Machine Learning webapp of accuracy level 90% ")
+st.write("THANKYOU")
 
   
   
