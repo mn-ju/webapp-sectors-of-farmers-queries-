@@ -17,23 +17,12 @@ op = model.predict([ip])
 if st.button('NEXT'):
  
   st.title(f"Mr/Ms {name} of {state} state, Your query is registered in {op[0]} sector")
-  st.subheader(f"please contact to  toll free number:1800-180-1551 and for BSNL landline: 1551 ")
+  st.subheader(f"please contact to  toll free number:1800-180-1551 and 1551 ")
  
   
   
-  
-html_temp1="""
-    <div style="background-color:white;padding:20px">
-    <h1 style="color:red;text-aling:center;">This is the Machine Learning webapp of accuracy level 90% </h1>
-    </div>
-    """
-st.markdown(html_temp1,unsafe_allow_html=True)  
-html_temp2="""
-    <div style="background-color:white;padding:20px">
-    <h1 style="color:red;text-aling:center;">THANKYOU</h1>
-    </div>
-    """
-st.markdown(html_temp2,unsafe_allow_html=True)  
+  st.text("This is the Machine Learning webapp of accuracy level 90%")
+  st.text("THANKYOU")
 
   
   
