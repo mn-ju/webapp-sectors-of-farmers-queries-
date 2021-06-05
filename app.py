@@ -16,13 +16,13 @@ ip = st.text_input("Please enter your query:","Type Here")
 op = model.predict([ip])
 if st.button('NEXT'):
  
-  st.title(f"Mr/Ms {name} of {state} state, Your query is registered in {op[0]} sector")
+  st.title(f"Mr/Ms {name} of {state} state, Your query is registered in {op[0]} sector \n")
   
-  st.subheader(f"please contact to  toll free number:1800-180-1551 and 1551 ")
+  st.subheader(f"please contact to  toll free number:1800-180-1551 and 1551 \n ")
  
   
   
-st.text("This is the Machine Learning webapp of accuracy level 90%")
+st.text("This is the Machine Learning webapp of accuracy level 90% \n")
 st.text("THANKYOU")
 
   
