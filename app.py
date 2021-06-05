@@ -18,8 +18,8 @@ if st.button('NEXT'):
  
   st.title(f"HELLO {name}!")
   st.title(f"Your query is registered in {op[0]} sector")
-  
-  st.subheader(f"please contact to  toll free number:1800-180-1551 and for BSNL landline Toll-Free number: 1551 \n \n")
+  st.text(" ")
+  st.subheader("please contact to  toll free number:1800-180-1551 and for BSNL landline Toll-Free number: 1551")
  
   
 st.text(" ")  
