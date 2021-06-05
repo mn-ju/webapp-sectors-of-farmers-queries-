@@ -16,7 +16,7 @@ ip = st.text_input("Please enter your query:","Type Here")
 op = model.predict([ip])
 if st.button('NEXT'):
   st.title(f"Mr/Ms {name} of {state} state, Your query is registered in {op[0]} sector")
-  st.subheader("please contact to  toll free number:1800-180-1551 and for BSNL landline Toll-Free number: 1551 ")
+  st.subheader("please contact to  toll free number:1800-180-1551 and for BSNL landline: 1551 ")
  
   
   
