@@ -22,7 +22,7 @@ if st.button('NEXT'):
  
   
   
-st.text("This is the Machine Learning webapp of accuracy level 90% \n")
+st.text("This is the Machine Learning webapp of accuracy level 90% ")
 st.text("THANKYOU")
 
   
