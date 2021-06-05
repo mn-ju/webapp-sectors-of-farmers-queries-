@@ -22,7 +22,7 @@ if st.button('NEXT'):
   
   
   
- html_temp1="""
+html_temp1="""
     <div style="background-color:white;padding:2px">
     <h1 style="color:red;text-aling:center;">Mr/Ms {name} of {state} state, This is the Machine Learning webapp of accuracy level 90% </h1>
     </div>
