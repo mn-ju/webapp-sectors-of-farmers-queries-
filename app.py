@@ -17,7 +17,7 @@ op = model.predict([ip])
 if st.button('NEXT'):
  
   st.title(f"HELLO {name}!")
-  st.title(f"Your query is registered in {op[0]} sector")
+  st.title(f"You should consult to {op[0]} Department for your query")
   st.text(" ")
   st.subheader("please contact to  toll free number:1800-180-1551 and for BSNL landline Toll-Free number: 1551")
  
